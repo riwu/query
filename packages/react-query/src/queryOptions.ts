@@ -7,7 +7,7 @@ import type {
   QueryFunction,
   QueryKey,
   SkipToken,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 import type { UseQueryOptions } from './types'
 
 export type UndefinedInitialDataOptions<

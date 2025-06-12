@@ -5,14 +5,14 @@ import {
   noop,
   notifyManager,
   shouldThrowError,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 import { useQueryClient } from './QueryClientProvider'
 import type {
   UseMutateFunction,
   UseMutationOptions,
   UseMutationResult,
 } from './types'
-import type { DefaultError, QueryClient } from '@tanstack/query-core'
+import type { DefaultError, QueryClient } from '@tanstack/query-core-imperative'
 
 // HOOK
 

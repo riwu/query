@@ -5,7 +5,7 @@ import type {
   QueryKey,
   QueryObserver,
   QueryObserverResult,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 import type { QueryErrorResetBoundaryValue } from './QueryErrorResetBoundary'
 
 export const defaultThrowOnError = <

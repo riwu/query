@@ -1,7 +1,7 @@
 'use client'
 import * as React from 'react'
 
-import { isServer, noop, notifyManager } from '@tanstack/query-core'
+import { isServer, noop, notifyManager } from '@tanstack/query-core-imperative'
 import { useQueryClient } from './QueryClientProvider'
 import { useQueryErrorResetBoundary } from './QueryErrorResetBoundary'
 import {
@@ -21,7 +21,7 @@ import type {
   QueryKey,
   QueryObserver,
   QueryObserverResult,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 import type { UseBaseQueryOptions } from './types'
 
 export function useBaseQuery<

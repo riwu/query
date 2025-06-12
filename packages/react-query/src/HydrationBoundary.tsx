@@ -1,14 +1,14 @@
 'use client'
 import * as React from 'react'
 
-import { hydrate } from '@tanstack/query-core'
+import { hydrate } from '@tanstack/query-core-imperative'
 import { useQueryClient } from './QueryClientProvider'
 import type {
   DehydratedState,
   HydrateOptions,
   OmitKeyof,
   QueryClient,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 export interface HydrationBoundaryProps {
   state?: unknown

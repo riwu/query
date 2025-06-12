@@ -16,7 +16,7 @@ import type {
   QueryObserverOptions,
   QueryObserverResult,
   SkipToken,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 export type AnyUseBaseQueryOptions = UseBaseQueryOptions<
   any,

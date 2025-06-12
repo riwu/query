@@ -7,7 +7,7 @@ import type {
   OmitKeyof,
   QueryKey,
   SkipToken,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 import type { UseInfiniteQueryOptions } from './types'
 
 export type UndefinedInitialDataInfiniteOptions<

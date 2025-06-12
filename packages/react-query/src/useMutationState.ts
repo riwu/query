@@ -1,7 +1,10 @@
 'use client'
 import * as React from 'react'
 
-import { notifyManager, replaceEqualDeep } from '@tanstack/query-core'
+import {
+  notifyManager,
+  replaceEqualDeep,
+} from '@tanstack/query-core-imperative'
 import { useQueryClient } from './QueryClientProvider'
 import type {
   Mutation,
@@ -9,7 +12,7 @@ import type {
   MutationFilters,
   MutationState,
   QueryClient,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 export function useIsMutating(
   filters?: MutationFilters,

@@ -4,7 +4,7 @@ import {
   QueryClient,
   dataTagSymbol,
   skipToken,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 import { queryOptions } from '../queryOptions'
 import { useQuery } from '../useQuery'
 import { useQueries } from '../useQueries'
@@ -14,7 +14,7 @@ import type {
   DataTag,
   InitialDataFunction,
   QueryObserverResult,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 describe('queryOptions', () => {
   it('should not allow excess properties', () => {

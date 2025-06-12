@@ -1,7 +1,7 @@
 'use client'
 import * as React from 'react'
 
-import type { QueryClient } from '@tanstack/query-core'
+import type { QueryClient } from '@tanstack/query-core-imperative'
 
 export const QueryClientContext = React.createContext<QueryClient | undefined>(
   undefined,

@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 
 // Re-export core
-export * from '@tanstack/query-core'
+export * from '@tanstack/query-core-imperative'
 
 // React Query
 export * from './types'

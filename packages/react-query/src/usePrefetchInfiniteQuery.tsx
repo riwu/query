@@ -4,7 +4,7 @@ import type {
   FetchInfiniteQueryOptions,
   QueryClient,
   QueryKey,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 export function usePrefetchInfiniteQuery<
   TQueryFnData = unknown,

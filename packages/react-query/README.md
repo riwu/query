@@ -10,8 +10,8 @@ Hooks for fetching, caching and updating asynchronous data in React
   <img alt="" src="https://img.shields.io/badge/Discord-TanStack-%235865F2" />
 </a><a href="https://github.com/TanStack/query/actions?query=workflow%3A%22react-query+tests%22">
 <img src="https://github.com/TanStack/query/workflows/react-query%20tests/badge.svg" />
-</a><a href="https://www.npmjs.com/package/@tanstack/query-core" target="\_parent">
-  <img alt="" src="https://img.shields.io/npm/dm/@tanstack/query-core.svg" />
+</a><a href="https://www.npmjs.com/package/@tanstack/query-core-imperative" target="\_parent">
+  <img alt="" src="https://img.shields.io/npm/dm/@tanstack/query-core-imperative.svg" />
 </a><a href="https://bundlejs.com/?q=%40tanstack%2Freact-query&config=%7B%22esbuild%22%3A%7B%22external%22%3A%5B%22react%22%2C%22react-dom%22%5D%7D%7D&badge=" target="\_parent">
   <img alt="" src="https://deno.bundlejs.com/?q=@tanstack/react-query&config={%22esbuild%22:{%22external%22:[%22react%22,%22react-dom%22]}}&badge=detailed" />
 </a><a href="#badge">

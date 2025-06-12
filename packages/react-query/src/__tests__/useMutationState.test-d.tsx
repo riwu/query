@@ -1,6 +1,9 @@
 import { describe, expectTypeOf, it } from 'vitest'
 import { useMutationState } from '../useMutationState'
-import type { MutationState, MutationStatus } from '@tanstack/query-core'
+import type {
+  MutationState,
+  MutationStatus,
+} from '@tanstack/query-core-imperative'
 
 describe('useMutationState', () => {
   it('should default to QueryState', () => {

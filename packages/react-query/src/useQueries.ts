@@ -6,7 +6,7 @@ import {
   QueryObserver,
   noop,
   notifyManager,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 import { useQueryClient } from './QueryClientProvider'
 import { useIsRestoring } from './IsRestoringProvider'
 import { useQueryErrorResetBoundary } from './QueryErrorResetBoundary'
@@ -36,7 +36,7 @@ import type {
   QueryKey,
   QueryObserverOptions,
   ThrowOnError,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 // This defines the `UseQueryOptions` that are accepted in `QueriesOptions` & `GetOptions`.
 // `placeholderData` function always gets undefined passed

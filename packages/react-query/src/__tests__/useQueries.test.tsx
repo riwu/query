@@ -18,7 +18,7 @@ import type {
   UseQueryOptions,
   UseQueryResult,
 } from '..'
-import type { QueryFunctionContext } from '@tanstack/query-core'
+import type { QueryFunctionContext } from '@tanstack/query-core-imperative'
 
 describe('useQueries', () => {
   const queryCache = new QueryCache()

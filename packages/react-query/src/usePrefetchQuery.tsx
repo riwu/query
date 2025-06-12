@@ -4,7 +4,7 @@ import type {
   FetchQueryOptions,
   QueryClient,
   QueryKey,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 export function usePrefetchQuery<
   TQueryFnData = unknown,

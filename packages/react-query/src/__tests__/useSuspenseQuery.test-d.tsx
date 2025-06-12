@@ -1,5 +1,5 @@
 import { assertType, describe, expectTypeOf, it } from 'vitest'
-import { skipToken } from '@tanstack/query-core'
+import { skipToken } from '@tanstack/query-core-imperative'
 import { useSuspenseQuery } from '../useSuspenseQuery'
 
 describe('useSuspenseQuery', () => {

@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest'
 import * as React from 'react'
 import { render } from '@testing-library/react'
-import * as coreModule from '@tanstack/query-core'
+import * as coreModule from '@tanstack/query-core-imperative'
 import { sleep } from '@tanstack/query-test-utils'
 import {
   HydrationBoundary,
@@ -10,7 +10,7 @@ import {
   dehydrate,
   useQuery,
 } from '..'
-import type { hydrate } from '@tanstack/query-core'
+import type { hydrate } from '@tanstack/query-core-imperative'
 
 describe('React hydration', () => {
   let stringifiedState: string

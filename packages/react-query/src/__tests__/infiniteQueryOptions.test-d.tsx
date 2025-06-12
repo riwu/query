@@ -1,5 +1,9 @@
 import { assertType, describe, expectTypeOf, it, test } from 'vitest'
-import { QueryClient, dataTagSymbol, skipToken } from '@tanstack/query-core'
+import {
+  QueryClient,
+  dataTagSymbol,
+  skipToken,
+} from '@tanstack/query-core-imperative'
 import { infiniteQueryOptions } from '../infiniteQueryOptions'
 import { useInfiniteQuery } from '../useInfiniteQuery'
 import { useSuspenseInfiniteQuery } from '../useSuspenseInfiniteQuery'
@@ -8,7 +12,7 @@ import type {
   DataTag,
   InfiniteData,
   InitialDataFunction,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 describe('infiniteQueryOptions', () => {
   it('should not allow excess properties', () => {

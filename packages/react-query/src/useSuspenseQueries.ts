@@ -1,5 +1,5 @@
 'use client'
-import { skipToken } from '@tanstack/query-core'
+import { skipToken } from '@tanstack/query-core-imperative'
 import { useQueries } from './useQueries'
 import { defaultThrowOnError } from './suspense'
 import type { UseSuspenseQueryOptions, UseSuspenseQueryResult } from './types'
@@ -8,7 +8,7 @@ import type {
   QueryClient,
   QueryFunction,
   ThrowOnError,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 
 // Avoid TS depth-limit error in case of large array literal
 type MAXIMUM_DEPTH = 20

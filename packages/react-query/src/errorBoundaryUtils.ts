@@ -1,13 +1,13 @@
 'use client'
 import * as React from 'react'
-import { shouldThrowError } from '@tanstack/query-core'
+import { shouldThrowError } from '@tanstack/query-core-imperative'
 import type {
   DefaultedQueryObserverOptions,
   Query,
   QueryKey,
   QueryObserverResult,
   ThrowOnError,
-} from '@tanstack/query-core'
+} from '@tanstack/query-core-imperative'
 import type { QueryErrorResetBoundaryValue } from './QueryErrorResetBoundary'
 
 export const ensurePreventErrorBoundaryRetry = <
